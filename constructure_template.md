@@ -1,0 +1,115 @@
+# Project structure
+
+#### Base Application
+## Template 1
+* src
+	* assets
+	  * css
+	  * fonts
+		* i18n
+		  * en.json
+			* ko.json
+			* index.js
+		* images
+		* styles
+	* common
+		* header
+		  * Header.js
+		* navbar
+		* table
+		* index.js
+	* componnents
+		* Dashboard.js
+		* Home.js
+	* containers
+	  * dashboard
+		  * dashboardElement1.js
+			* dashboardElement2.js
+		* home
+			* HomeElement1.js
+			* HomeElement1.js
+	* redux
+	  * actions
+		  * dashboard.js
+			* home.js
+		  * index.js
+		* middlewares
+		  * index.js
+		* reducers
+			* dasbboard
+				* reducersDashboard1.js
+				* reducersDashboard1.js
+			* home
+				* reducersHome1.js
+				* reducersHome2.js
+		  * index.js
+		* store
+		  * config.js
+* utils
+  * constants
+	  * actionTypes.js
+		* constants.js
+		* index.js
+		* role.js
+	* helper.js
+	* Locales.js
+* vendor
+* index.html
+* index.js
+
+## Template 2
+* public
+	* index.html
+* src
+	* assets
+	  * css
+	  * fonts
+		* i18n
+		  * en.json
+			* ko.json
+			* index.js
+		* images
+	* common
+		* header
+		  * Header.js
+			* Header.scss
+		* navbar
+		* table
+		* index.js
+	* pages
+	  * dashboard
+		  * Dashboard.js
+			* Dashboard.scss
+			* DashboardContainer.js
+			* DashboardService.js
+		* home
+		  * Home.js
+			* Home.scss
+			* HomeContainer.js
+			* HomeService.js
+	* redux
+	  * actions
+		  * systems.js
+		  * index.js
+		* middlewares
+		* reducers
+		  * reducer1.js
+			* reducer2.js
+			* ...
+		  * index.js
+		* store
+		  * config.js
+* services
+  * api.js
+* utils
+  * constants
+	  * actionTypes.js
+		* constants.js
+		* index.js
+		* role.js
+	* helper.js
+	* Locales.js
+* vendor
+* App.js
+* index.js
+* Routes.js
